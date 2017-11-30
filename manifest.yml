@@ -3,3 +3,4 @@ applications:
 - env:
     GOPACKAGENAME: dvrs-test
   name: dvrs-test
+  buildpack: https://github.com/cloudfoundry/go-buildpack
