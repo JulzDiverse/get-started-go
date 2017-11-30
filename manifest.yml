@@ -1,4 +1,5 @@
 ---
 applications:
+- name: dvrs-test
 - env:
     GOPACKAGENAME: go-test
