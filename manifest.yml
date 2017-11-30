@@ -1,6 +1,7 @@
 ---
 applications:
-- env:
-    GOPACKAGENAME: github.com/JulzDiverse/get-started-go
-  name: dvrs-test
+#- env:
+    #GOPACKAGENAME: github.com/JulzDiverse/get-started-go
+- name: dvrs-test
   buildpack: https://github.com/cloudfoundry/go-buildpack
+  random-route: true
