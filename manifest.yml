@@ -3,3 +3,4 @@ applications:
 - name: dvrs-test
   buildpack: https://github.com/cloudfoundry/go-buildpack
   random-route: true
+  memory: 128M
