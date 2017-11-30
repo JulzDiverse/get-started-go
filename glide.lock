@@ -1,0 +1,40 @@
+hash: 08de8d5862cf7b06902ad9a973766a8023dc9379f93b63d16b083eeb24d4a880
+updated: 2017-11-30T09:02:56.804930916+01:00
+imports:
+- name: github.com/cloudfoundry-community/go-cfenv
+  version: e84b5c116637ef174eb8c7d68a28bc7269b3b9cb
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: 9e895470ddd40a45f28dbe4e96bfb5e893d54f9e
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/golang/protobuf
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
+  subpackages:
+  - proto
+- name: github.com/joho/godotenv
+  version: 6d367c18edf6ca7fd004efd6863e4c5728fa858e
+- name: github.com/json-iterator/go
+  version: 051434fab7e041ee2834e049ceae37492fc0412c
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/mitchellh/mapstructure
+  version: 06020f85339e21b2478f756a78e295255ffa4d6a
+- name: github.com/timjacobi/go-couchdb
+  version: 5f9d2a1a29e5b126e51255e92f8c420b0c7a60ac
+- name: github.com/ugorji/go
+  version: 14c9063c18427f21537bc9da3d15cfb0ed3c61c0
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: f3918c30c5c2cb527c0b071a27c35120a6c0719a
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
+testImports: []

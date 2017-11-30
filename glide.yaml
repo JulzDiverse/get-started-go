@@ -1,0 +1,6 @@
+package: github.com/JulzDiverse/get-started-go
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/gin-gonic/gin
+- package: github.com/joho/godotenv
+- package: github.com/timjacobi/go-couchdb
