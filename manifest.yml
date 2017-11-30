@@ -1,6 +1,6 @@
 ---
 applications:
 - env:
-    GOPACKAGENAME: dvrs-test
+    GOPACKAGENAME: github.com/JulzDiverse/get-started-go
   name: dvrs-test
   buildpack: https://github.com/cloudfoundry/go-buildpack
